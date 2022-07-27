@@ -83,7 +83,9 @@ s3 = int(s3.decode(),16)
 # 计算s
 s=((d1 * k1) * s2 + d1 * s3 - r)%n
 if s!=0 or s!= n - r:
+    print("Sign:")
     print((hex(r),hex(s)))
+client.close()
 ```
 
 ### twoparty_sign_client2
@@ -133,7 +135,7 @@ client.sendto(hex(s3).encode(),addr)
 
 # 测试截图
 
-![image](https://user-images.githubusercontent.com/105578152/181214677-7b0d91eb-473e-4683-8744-f834b11ef6f9.png)
+![image](https://user-images.githubusercontent.com/105578152/181215796-ff937cb3-897e-416c-b0d3-d33ab2bf1227.png)
 
 ![image](https://user-images.githubusercontent.com/105578152/181214740-42d536e9-1b28-4ade-9de7-c7f45ebac8b2.png)
 
