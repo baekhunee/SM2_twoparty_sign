@@ -131,7 +131,7 @@ client.sendto(hex(s2).encode(),addr)
 client.sendto(hex(s3).encode(),addr)
 ```
 
-# 测试结果
+# 测试截图
 
 ![image](https://user-images.githubusercontent.com/105578152/181214677-7b0d91eb-473e-4683-8744-f834b11ef6f9.png)
 
