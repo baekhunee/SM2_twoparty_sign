@@ -96,5 +96,6 @@ else:
     # 计算s
     s=((d1 * k1) * s2 + d1 * s3 - r)%n
     if s!=0 or s!= n - r:
+        print("Sign:")
         print((hex(r),hex(s)))
     client.close()
